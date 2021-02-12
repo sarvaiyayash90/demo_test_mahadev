@@ -10,9 +10,9 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(express.json());
 require("dotenv").config();
 
-app.get('/',(req,res)=>{
-    res.send("backend site host")
-})
+// app.get('/',(req,res)=>{
+//     res.send("backend site host")
+// })
 
 app.post('/Login', (req, res) => {
     //console.log(req.body);
