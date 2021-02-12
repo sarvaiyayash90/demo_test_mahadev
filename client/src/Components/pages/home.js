@@ -12,7 +12,7 @@ const Home = () => {
 
     return ( 
         <div>
-            <div style={{margin:'250px 0 0 0',fontSize:'120px'}}>Welcome to Student</div>
+            <div style={{margin:'250px 0 0 0',fontSize:'120px'}}>Har Har Mahadev</div>
             <button className="btn btn-outline-primary btn-lg" style={{width:'250px'}} onClick={() => { if (window.confirm('Are you sure you wish to Logout?')) logout_session()}}>Logout</button>
         </div>
      );
